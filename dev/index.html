@@ -1,0 +1,494 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Activite-Musique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- build:css /styles/main.min.css -->
+    <!-- endbuild -->
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <!-- build:css /styles/carousel/carousel.css -->
+    <link rel="stylesheet" href="assets/styles/carousel.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+    <!-- endbuild -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/datepicker/Datepicker-css/bootstrap-datepicker.min.css">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/json3/3.3.1/json3.min.js"></script>
+    <![endif]-->
+    <!-- build:js /scripts/modernizr.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body onload="actu()">
+
+
+
+
+
+<header>
+
+
+    <nav class="navbar scroll margin">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <!-- responsive button -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+              <!-- end of responsive button -->
+              <a class="navbar-brand" href="#myCarousel">Carry Poulet 2</a>
+            </div>
+
+            <div class="col-md-offset-1 col-md-8">
+
+
+            <nav class="navbar-collapse collapse">
+              <ul class="nav navbar-nav ">
+                <li class="active"><a href="#myCarousel"  data-scroll="top">Accueil</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Artistes <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#booba">Booba</a></li>
+                    <li><a href="#nano">Nano</a></li>
+                    <li><a href="#tiken">Daft Punk</a></li>
+                  </ul>
+                </li>
+                <li><a href="#event">Event</a></li>
+
+                <li><a href="#footer-top">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+      <!-- Indicators -->
+    <div class="row">
+
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item">
+            <img class="img-responsive" src="assets/img/Nano.png" width="1280" height="720">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1></h1>
+                <p></p>
+                <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">En savoir plus</a></p>-->
+              </div>
+            </div>
+          </div>
+          <div class="item active">
+            <img class="img-responsive" src="assets/img/booba.jpg" width="1280" height="720" >
+            <div class="container">
+              <div class="carousel-caption">
+                <h1></h1>
+                <p></p>
+                <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">En savoir plus</a></p>-->
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="img-responsive" src="assets/img/Daftbanner.jpg" width="1280" height="720">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1></h1>
+                <p></p>
+                <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">En savoir plus</a></p>-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </div>
+
+
+    <!-- Three columns of text below the carousel -->
+
+
+
+    <div class="container marketing">
+      <div class="row scroll">
+        <div class="col-md-4 text-center">
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="assets/img/booba2500x500.jpg" style="width: 140px; height: 140px;">
+          <h2>Booba</h2>
+          <p><i class="glyphicon glyphicon-map-marker"></i> From France ,  93 IZI .</p>
+          <p><i class="glyphicon glyphicon-music"></i> Rap / Rnb </p>
+          <p><i class="fa fa-facebook" aria-hidden="true"></i> <a href="https://www.facebook.com/booba"  target="_blank"> Facebook</a> / <i class="fa fa-twitter" aria-hidden="true"></i>  <a href="https://twitter.com/booba"  target="_blank"> Twitter</a> </p>
+          <p><a class="btn btn-default" href="#booba" role="button">En savoir plus »</a></p>
+          </div><!-- /.col-md-4 -->
+          <div class="col-md-4 text-center">
+            <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="assets/img/nano2.jpg" style="width: 140px; height: 140px;">
+            <h2>Nano</h2>
+            <p> <i class="glyphicon glyphicon-map-marker"></i> From New york , USA .</p>
+            <p>  <i class="glyphicon glyphicon-music"></i> Jpop / Jrock</p>
+            <p>
+              <p><i class="fa fa-facebook" aria-hidden="true"></i> <a href="https://www.facebook.com/nano.official/"  target="_blank"> Facebook </a> / <i class="fa fa-twitter" aria-hidden="true"></i>  <a href="https://twitter.com/nanonano_me"  target="_blank"> Twitter</a>             </p>
+            </p>
+            <p><a class="btn btn-default" href="#nano" role="button">En savoir plus »</a></p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4 text-center">
+              <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="assets/img/daft.jpg" style="width: 140px; height: 140px;">
+              <h2>Daft punk</h2>
+              <p>  <i class="glyphicon glyphicon-map-marker"></i> From Paris , France </p>
+              <p>  <i class="glyphicon glyphicon-music"></i>	House, rock électronique </p>
+              <p><i class="fa fa-facebook" aria-hidden="true"></i> <a href="https://www.facebook.com/daftpunk/"  target="_blank"> Facebook</a> / <i class="fa fa-twitter" aria-hidden="true"></i>  <a href="https://twitter.com/daftpunkstore"  target="_blank"> Twitter</a></p>
+              <p><a class="btn btn-default " href="#tiken" role="button">En savoir plus »</a></p>
+              </div><!-- /.col-md-4 -->
+              </div><!-- /.row -->
+              </div><!-- container -->
+
+              <!-- START THE FEATURETTES -->
+
+              <div class="sombre">
+                <section>
+                  <hr class="featurette-divider" id="booba">
+
+                  <div class="superheight container">
+                    <div class="row featurette" >
+                      <div class="col-md-7">
+                        <div class="panel-group" id="accordion">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><strong>Biographie</strong></a>
+                              </h3>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <p>Booba, de son vrai nom Élie Yaffa, né le 9 décembre 1976 à Boulogne-Billancourt dans les Hauts-de-Seine, est un rappeur français. Il est membre du <strong>92i</strong>, un collectif de rap français dont il a été le fondateur, regroupant des rappeurs issus des Hauts-de-Seine, Mala et Bram's (ce dernier est mort le 21 mai 2011). Businessman très actif, il lance sa propre marque de vêtements streetwear et son propre parfum nommé Ünkut, ainsi qu'un site web et une application mobile nommés OKLM. Booba est le rappeur français comptant le plus d'album en solo vendus parmi les rappeurs toujours en activité.
+                                  En 20 ans de carrière, Booba a produit huit albums, 2 rééditions et 4 mixtapes depuis 2002 jusqu'à ce jour. Considéré comme l'un des plus grands rappeurs français de sa génération, il est le premier rappeur solo français à remplir le Palais omnisports de Paris-Bercy et second artiste rap à remplir Bercy après NTM. Il s'est d'abord fait connaître grâce au groupe Lunatic, avec son compère Ali originaire d'Issy-les-Moulineaux, où le succès vient à la fois de la critique et du public. L'album Mauvais œil entrera dans l'histoire du rap français en obtenant un disque d'or. Il s'agit en effet du premier album en indépendant à obtenir une telle récompense.
+                                Booba compte plus d'un million d'albums vendus et en a produit sept. Le premier, intitulé Temps mort, est publié en 2002 ; en 2004 sort la mixtape, Autopsie Vol. 1. Un cinquième album, intitulé Lunatic, est publié le 22 novembre 2010 ; le titre reprend le nom de l'ancien groupe de Booba. L'album est certifié disque d'or dès la première semaine et est aujourd'hui double-disque de platine. Le 26 novembre 2012, Booba publie son sixième album intitulé Futur, qui devient disque d'or en une seule semaine avec plus de 51 000 exemplaires vendus, ce qui est le meilleur démarrage de vente de toute la carrière du rappeur. Il bat également le record français d'albums numériques vendus sur iTunes, toutes catégories musicales confondues, avec plus de 17 000 exemplaires en une seule semaine, détrôné depuis 2013 par les Daft Punk.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><strong>Influences</strong></a>
+                              </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <p>Booba est influencé par la scène hip-hop américaine des années 1980 et début des années 1990 : de Mobb Deep en passant par le Wu-Tang Clan mais aussi par les grands 2pac et The Notorious B.I.G.. Les mélodies sombres accompagnées de textes crus, fidèles au rap de New York, sont présentes sur chaque album de Booba. Dernièrement les sons ont plus suivi la mode dirty south et crunk. Certains lui reprochent de faire l'apologie de l'argent facile et du crime. Booba prône une baisse des impôts et se prétend libéral. Il parle beaucoup du racisme dans ses chansons avec par exemple Couleur Ébène et prend parfois des positions jugées communautaristes, chose qu'il assume totalement. Beaucoup de gens reprochent à Booba de « fantasmer » ces histoires de rue, de délinquance ainsi que les diverses scènes qu'il décrit dans ses chansons qui sont de pures inventions de sa part.
+                                Dans un article paru en 2003, Booba est encensé pour ses textes par Thomas Ravier, un auteur de La Nouvelle Revue française qui l'érige au rang d'écrivain, le comparant à Céline ou à Antonin Artaud. Booba utilise des images appelées « métagores », mélanges de métaphores et de gore. Dans un article publié en janvier 2013, la Revue critique de fixxion française contemporaine s'intéresse à la façon dont l'émergence de Booba et des rappeurs du collectif Time Bomb dans la deuxième moitié des années 1990 a modifié en profondeur certains aspects fondamentaux du rap français, au premier rang desquels la façon d'écrire et la façon de rapper. Dès les premiers morceaux de Lunatic, Booba est en effet l'un des premiers rappeurs français à proposer des couplets sans continuité thématique ni narrative. En établissant une équivalence explicite et répétée entre le rappeur et le criminel, et en s'appuyant constamment sur les figures de l'analogie, Booba construit un univers singulier dans lequel il n'est plus possible de distinguer ce qui relève du biographique de ce qui appartient au fictif.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><strong>Discographie</strong></a>
+                              </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <p><ul>
+                                  <li>2002 : Temps mort</li>
+                                  <li>2004 : Panthéon</li>
+                                  <li>2006 : Ouest Side</li>
+                                  <li>2008 : 0.9</li>
+                                  <li>2010 : Lunatic</li>
+                                  <li>2012 : Futur</li>
+                                  <li>2015 : D.U.C</li>
+                                  <li>2015 : Nero Nemesis</li>
+                                </ul></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-5">
+                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="assets/img/booba500x500.jpg">
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <!-- fin booba -->
+              <!-- nano -->
+              <hr class="featurette-divider" id ="nano" data-anchor="artistes">
+              <section id="booba">
+                <div class="superheight container">
+                  <div class="row featurette">
+                    <div class="col-md-5">
+                      <img class="featurette-image img-responsive" src="assets/img/nanouille.jpg" data-src="holder.js/500x500/auto" alt="500x500" src="">
+                    </div>
+                    <div class="col-md-7">
+                      <div class="panel-group" id="accordionano">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h3 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordionano" href="#collapseFour"><strong>Biographie</strong></a>
+                            </h3>
+                          </div>
+                          <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                              <p>Nano est une chanteuse bilingue anglo-japonaise née le 12 Juillet 1988 (27 ans) à New York. Quelques temps après, elle revient sur l'archipel Nippon pour remplir un objectif : percer dans la musique.
+                                Elle commence à faire des reprises sur Youtube jusqu'en 2009, notamment une reprise de "Black Board" de la dénommée Hatsune Miku; mais aussi grâce à des reprises de chansons de chanteurs anglophones par exemple Avril Lavigne("Smile"). Puis elle a commencé à poster ses reprises sur Nico Nico Douga de 2010 à maintenant et finalement signe avec le label Flying Dod et sort son premier album de reprises "Nanoir" le 14 mars 2012 ("Magenta" étant un original song).
+                                Elle est connue pour sa voix masculine mais sont côté féminin ressortant dans quelques une de ses chansons.
+                                Ce premier album fut un premier succès. Celui s'agrandit grâce a son titre "Now or Never", Opening de l'animé Phi Brain Saison 2 puis de l'opening de "BTOOOM!" avec "No pain, No Game" et "Exist".
+                                Elle sort son deuxième album "N" le 27 février qui contient principalement ses titres et non des reprises, et le 16 mars 2013 elle tient son premier concert "Remember your Color". En 2013, elle interprète également l'opening de l'anime Aoki Hagane no Apeggio intitulé "Savior of Song" au côté de My First Story. De plus, depuis le 19 janvier, elle tient une émission web-radio appelé "NANORAJI".
+                                Elle a aussi travaillé sur des OSTs d'animés et de jeux vidéos:
+                                -"Destiny~12 Kaime no Kiseki~" (Destiny~The Twelfth Miracle~), opening du jeu, sorti le 26 Avril 2012 sur PSP, Conception: Ore no Kodomo wo Undekure!;
+                                -"Now or Never" opening de l'animé Phi Brain kami no Puzzle saison 2, diffusé à partir du 8 Avril 2012;
+                                -"No Pain, No Game" opening de l'animé BTOOOM!, diffusé à partir du 4 Octobre 2012;
+                                -"Silence", chanson pour la chaîne d'horreur Den Of Horror ~Horror no Soukutsu~!;
+                              -"Nevereverland", chanson pour le film d'animation Bluray "Arc IX".</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordionano" href="#collapseFive"><strong>Influences</strong></a>
+                            </h4>
+                          </div>
+                          <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                              <p>Nano a commencé la musique car il y a vraiment beaucoup a dire sur la censure et pour parlé de sujet difficile.
+                                Influencais par son père et sa mère qui écouter The Beatles et The Rolling Stones, ça vie musical est brassé par du Rock, Uk Rock, du Emo , Punk...,mais les paroles de musique japonaise l'on aussi inspirer et c'est pour cela qu'elle chante en anglais certaine partie de ses chanson pour ainsi faire decouvrir au monde la bonté du japon dans ses paroles (pour les personnes non japonaise).
+                              Ecouter ces differents genre de musique lui a  permis d'avoir un éventail de genre dans lequel elle c'est inspiré pour pouvoir aujourd'hui produire sa propre musique.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordionano" href="#collapseSix"><strong>Discographie</strong></a>
+                            </h4>
+                          </div>
+                          <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                              <p><ul>
+                                <li>2012 : Dive in a ground</li>
+                                <li>2012 : Beautiful Ground</li>
+                                <li>2013 : Neverland</li>
+                                <li>2013 : Now or never</li>
+                                <li>2013 : No pain , No game</li>
+                                <li>2015 : Bull'es eye</li>
+                                <li>2015 : Rock on</li>
+                                <li>2015 : Savior of song</li>
+                              </ul></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <div class="sombre">
+                <section id="tiken">
+                  <hr class="featurette-divider" data-anchor="artistes">
+                  <div class="superheight container">
+                    <div class="row featurette">
+                      <div class="col-md-7">
+                        <div class="panel-group" id="accordiontiken">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordiontiken" href="#collapseSeven"><strong>Biographie</strong></a>
+                              </h3>
+                            </div>
+                            <div id="collapseSeven" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <p>Daft Punk est un groupe français de musique électronique originaire de Paris, composé de Thomas Bangalter et Guy-Manuel de Homem-Christo. Actif depuis 1993, le groupe participe à la création et à la démocratisation du mouvement de musique électronique baptisé french touch. Ils font partie des artistes français s'exportant le mieux à l'étranger, et ce depuis la sortie de leur premier véritable succès, Da Funk en 1996. Une des originalités des Daft Punk est la culture de leur notoriété d'artistes indépendants et sans visage, portant toujours en public des casques et des costumes. Ils s'inspirent du film Phantom of the Paradise de Brian De Palma.
+
+Daft Punk sort son premier album intitulé Homework en 1997. Leur second album, commercialisé en 2001, s'intitule Discovery. Il comprend des succès tels que One More Time, Digital Love et Harder, Better, Faster, Stronger. Le duo a également composé la bande son du film Tron : L'Héritage. En 2013, Daft Punk quitte EMI Records pour signer avec le label Columbia Records et sortir un album intitulé Random Access Memories qui remporte un important succès international et cinq Grammy Awards dont celui du meilleur album de l'année.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordiontiken" href="#collapseHeight"><strong>Influences</strong></a>
+                              </h4>
+                            </div>
+                            <div id="collapseHeight" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <p>La rencontre de Thomas Bangalter et Guy-Manuel de Homem-Christo a lieu en 1987 au lycée Carnot à Paris1. En 1991, les deux hommes fondent avec Laurent Brancowitz, futur guitariste du groupe Phoenix, un groupe de rock nommé Darlin', en hommage à la chanson des Beach Boys2.
+
+Ils enregistrent leur premier single éponyme, Darlin' sur le label indépendant anglais Duophonic. Ce 45 tours contient deux titres : Darlin' et Cindy so Loud. Le succès n'est pas au rendez-vous, le titre se vend à un millier d'exemplaires, et le groupe n'a quasiment aucun impact sur la scène française. En mai 1993, une critique du magazine britannique Melody Maker qualifiera la musique du groupe de « daft punky trash »3 , littéralement « punk idiot »4.
+
+En 1993, Thomas et Guy-Manuel fondent à Paris le duo Daft Punk5. Lors d'une rave party sur le toit du Centre Beaubourg, Daft Punk rencontre les responsables du label écossais Soma6. En parallèle, Thomas et Guy-Manuel commencent à travailler sur du matériel électronique tel que l'échantillonneur. Le duo sort un an plus tard, sous le nom Daft Punk, le maxi trois titres The New Wave. À défaut de succès retentissant, la « techno adolescente française » des Daft Punk retient l'attention de quelques journalistes et critiques anglais. L'année 1995 est celle de leur premier succès, le groupe sort le maxi électro-rock Da Funk / Rollin' and Scratchin'. Le titre rencontre le succès et se répand petit à petit dans les clubs d'Europe7. Toujours en 1995, Thomas crée son label, Roulé, sur lequel il sort le titre Trax On Da Rocks. Daft Punk fait alors la première partie des Chemical Brothers à Londres. En France, le groupe participe à la 17e édition des Trans Musicales de Rennes8 et est repéré par la maison de disques Virgin ; c'est ainsi qu'il fait une apparition sur la compilation Sourcelab vol.2 du label Source (qui fait partie de Virgin) avec le titre Musique, en 1996. Source est dès lors le premier label à diffuser Daft Punk en France.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordiontiken" href="#collapseNine"><strong>Discographie</strong></a>
+                              </h4>
+                            </div>
+                            <div id="collapseNine" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <p><ul>
+                                  <li>1997 : Homework</li>
+                                  <li>2001 : Discovery </li>
+                                  <li>2005 : Human After All</li>
+                                  <li>2013 : Random Access Memories</li>
+
+                                </ul></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-5">
+                        <img class="featurette-image img-responsive" src="assets/img/daftpunk.jpg" data-src="holder.js/500x500/auto" alt="500x500" src="">
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+
+              <hr class="featurette-divider" id="event">
+
+
+            <div class="event">
+
+
+              <div class="container superheight" data-anchor="datepicker">
+                <section >
+
+                  <div class="row">
+
+
+
+                  <aside class="col-md-4 ">
+                    <div class="dblborder" style="border: #273034 1px solid; padding: 0.5em;">
+                      <div class="sandbox">
+
+                      <h4> <i class="fa fa-calendar"></i> Calendrier</h4>
+
+                      <p><input type="text" class="form-control" id="datepicker" onfocus="actu()"></p>
+
+                    </div>
+                    </div>
+                  </aside>
+
+
+
+                    <article class="col-md-offset-1 col-md-6">
+                      <div class="dblborder" style="border: #273034 1px solid; padding: 0.5em;">
+                        <div class="sandbox">
+                          <h4>Evenements</h4>
+                          <p class="concert">  </p>
+                      </div>
+                      </div>
+                    </article>
+
+
+
+
+                  </div>
+                </section>
+              </div>
+            </div>
+              <!-- /END THE FEATURETTES -->
+              <!-- FOOTER -->
+
+              <section id="footer-top">
+
+              </section>
+              <footer>
+
+                <section>
+                  <div class="sombre padding-top">
+                    <hr class="featurette-divider hidden-lg">
+                    <div class="container white superheight" >
+                      <div class="row">
+                        <form role="form" action="" method="post" >
+
+                          <article class="col-md-5">
+                              <img src="assets/img/carte.png" alt="" />
+                               <h2 class="contact" style="color:white">Contacter nous : </h2>
+                               <hr style="  width: 50px; margin-left: 47px;">
+                                  <ul class="details none">
+                                        <li>
+                                            <span style="color: #444;">Addrese : </span>
+                                            <div class="inline " style="margin-left: 30px;">29 rue du Jaimefeed, St-André </div>
+                                        </li>
+                                        <li>
+                                            <span style="color: #444;">Email : </span>
+                                            <div class="inline " style="margin-left: 49px;"><a href="#">CarryPoulet2@gmail.fr</a></div>
+                                        </li>
+                                        <li>
+                                            <span style="color: #444;">Tel :</span>
+                                            <div class="inline " style="margin-left: 63px;">0262 555 555</div>
+                                        </li>
+                                  </ul>
+                        </article>
+                          <div class="col-md-offset-1 col-md-6"  id="messageme">
+                            <div class="form-group">
+                              <label for="InputName">Nom</label>
+                              <div class="input-group">
+                                <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Entrer Nom" required>
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+                              </div>
+                              <div class="form-group">
+                                <label for="InputEmail">Email</label>
+                                <div class="input-group">
+                                  <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Entrer Email" required  >
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="InputMessage">Message</label>
+                                  <div class="input-group"
+                                    >
+                                    <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+                                  </div>
+                                  <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+                                </div>
+                              </form>
+
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </footer>
+                  <section id="footer-bot">
+                    <p class="pull-right scroll"><a href="#myCarousel"><img src="assets/img/scroll-button.png" alt="Back to top" /></a></p>
+                    <p>© 2014 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+                  </section>
+                  <!-- build:js /scripts/vendor.min.js -->
+                  <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+                  <!-- endbuild -->
+                  <!-- build:js /scripts/bootstrap.min.js -->
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                  <!-- endbuild -->
+                  <script type="text/javascript" src="assets/datepicker/Datepicker-js/bootstrap-datepicker.js"></script>
+                  <script type="text/javascript" src="assets/datepicker/locales/bootstrap-datepicker.fr-CH.min.js">
+                  </script>
+                  <!-- build:js /scripts/main.min.js-->
+                  <script src="assets/scripts/main.js"></script>
+                  <!-- endbuild -->
+                </body>
+              </html>
